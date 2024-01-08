@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements_tests.txt
 
     - name: test_functions
-      run: pytest test/
+      run: pytest tests/
