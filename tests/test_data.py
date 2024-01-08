@@ -13,7 +13,7 @@ import os
 #     assert that all labels are represented
 
 
-
+@pytest.mark.skipif(not os.path.exists(_PATH_DATA), reason="Data files not found")
 def test_data():
     dataset = torch.load(os.path.join(_PATH_DATA, "processed/train_data.pt") )
     assert len(dataset) == 25000
