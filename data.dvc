@@ -1,6 +1,137 @@
 outs:
-- md5: c4c5f01bfa9f4135309ce07760fedb06.dir
-  size: 207099732
-  nfiles: 19
-  hash: md5
+- hash: md5
   path: data
+  files:
+  - relpath: processed/.gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08fbd2e49e91d083031001
+        version_id: '1704797406833019'
+  - relpath: processed/image.npy
+    md5: 07af4dc4a6d98ea08c74d00ec1b7ac1a
+    size: 5976
+    cloud:
+      remote_storage:
+        etag: 08eadce59e91d083031001
+        version_id: '1704797406850666'
+  - relpath: processed/test_data.pt
+    md5: d9480588ab5b9b2ac34e732959322829
+    size: 15761508
+    cloud:
+      remote_storage:
+        etag: 08c39da8a691d083031001
+        version_id: '1704797422620355'
+  - relpath: processed/train_data.pt
+    md5: 316bb7d51c74397113d5459215d07e68
+    size: 78601514
+    cloud:
+      remote_storage:
+        etag: 08f78195ab91d083031001
+        version_id: '1704797432791287'
+  - relpath: raw/.gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08fbafe59e91d083031001
+        version_id: '1704797406844923'
+  - relpath: raw/test_images.pt
+    md5: dbaef582b7c62889340e79e408b1eb81
+    size: 15680759
+    cloud:
+      remote_storage:
+        etag: 0888f3d0a691d083031001
+        version_id: '1704797423286664'
+  - relpath: raw/test_target.pt
+    md5: 07a46d22581416c598f8b052816e3f56
+    size: 80759
+    cloud:
+      remote_storage:
+        etag: 08dc8ded9e91d083031001
+        version_id: '1704797406971612'
+  - relpath: raw/train_images_0.pt
+    md5: 45a5787aa4d44cc51bbc31f963513b05
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08cad8e8a591d083031001
+        version_id: '1704797421579338'
+  - relpath: raw/train_images_1.pt
+    md5: a5c62febd0bb8c80df768b7c208a9d27
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 0890c4e9a191d083031001
+        version_id: '1704797413204496'
+  - relpath: raw/train_images_2.pt
+    md5: f20c7ad31a03213f3fa2ae2f03e3085b
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08f3b1e9a591d083031001
+        version_id: '1704797421590771'
+  - relpath: raw/train_images_3.pt
+    md5: c57ae96d4e686648971e65d738f0332a
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08beb5daa691d083031001
+        version_id: '1704797423442622'
+  - relpath: raw/train_images_4.pt
+    md5: 6d70cc8f6423c00671c2aa64fb139d67
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 08d3c295a691d083031001
+        version_id: '1704797422313811'
+  - relpath: raw/train_images_5.pt
+    md5: 826e31e8e2fd6296dd1ad1d4cbbf0c55
+    size: 15680768
+    cloud:
+      remote_storage:
+        etag: 0894bd8aa691d083031001
+        version_id: '1704797422132884'
+  - relpath: raw/train_target_0.pt
+    md5: e4a6683c59059f14cef44dfec30cdc21
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08ac80919f91d083031001
+        version_id: '1704797407559724'
+  - relpath: raw/train_target_1.pt
+    md5: 89b2d0ceabecbb618b05e536eade36fe
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08e8c78d9f91d083031001
+        version_id: '1704797407503336'
+  - relpath: raw/train_target_2.pt
+    md5: b6eba9a036e61275df9d46f11acd0541
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 088f949a9f91d083031001
+        version_id: '1704797407709711'
+  - relpath: raw/train_target_3.pt
+    md5: a27f99f24f43d6c653e1244b21d80de0
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08c196cb9e91d083031001
+        version_id: '1704797406415681'
+  - relpath: raw/train_target_4.pt
+    md5: b1b55f6a9baa7356bf87430775e37aa6
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08d79fb69f91d083031001
+        version_id: '1704797408169943'
+  - relpath: raw/train_target_5.pt
+    md5: b44e2cd89f6efcbe4eb88253da30f327
+    size: 480768
+    cloud:
+      remote_storage:
+        etag: 08a28faa9f91d083031001
+        version_id: '1704797407971234'
