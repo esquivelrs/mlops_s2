@@ -6,7 +6,7 @@ RUN apt update && \
     apt clean && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt requirements.txt
-COPY main.py main.py
+COPY s2_m6_prj/train_model.py main.py
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
 
