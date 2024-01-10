@@ -10,8 +10,8 @@ steps:
   - 'deploy'
   - 'gcp-test-app'
   - '--image'
-  - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
+  - 'gcr.io/cosmic-kiln-410709/testing:latest'
   - '--region'
   - 'europe-west1'
 images:
-  - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
+  - 'gcr.io/cosmic-kiln-410709/testing:latest'
