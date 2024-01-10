@@ -8,10 +8,10 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - 'SERVICE-NAME'
+  - 'gcp-test-app'
   - '--image'
   - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
   - '--region'
-  - 'REGION'
+  - 'europe-west1'
 images:
   - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
