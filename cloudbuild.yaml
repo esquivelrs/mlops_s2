@@ -1,5 +1,17 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/cosmic-kiln-410709/testing', '.']
+  args: ['build', '-t', 'gcr.io/cosmic-kiln-410709/testing', 'dockerfiles/']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/cosmic-kiln-410709/testing']
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'SERVICE-NAME'
+  - '--image'
+  - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
+  - '--region'
+  - 'REGION'
+images:
+  - 'gcr.io/cosmic-kiln-410709/gcp_test_app:latest'
